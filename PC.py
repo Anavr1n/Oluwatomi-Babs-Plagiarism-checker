@@ -57,8 +57,8 @@ def find_plagiarized_sentences(text1, text2, threshold=0.8):
 
 # Example usage:
 script_path = os.path.dirname(os.path.realpath(__file__))
-documentA_path = os.path.join(script_path, "C:\\Users\HP\Desktop\EAPPU\RESEARCH\SOURCES\\books\\test run 3.docx")
-documentB_path = os.path.join(script_path, "C:\\Users\HP\Desktop\EAPPU\RESEARCH\SOURCES\\books\\test run 1.docx")
+documentA_path = os.path.join(script_path, "paste file path")
+documentB_path = os.path.join(script_path, "paste file path")
 
 documentA = read_word(documentA_path)
 documentB = read_word(documentB_path)
